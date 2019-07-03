@@ -22,7 +22,8 @@ instance_tags:
   Name: sampleFtpServer
   Owner: default
 monitoring: no
-vpc_subnet_id: # Must be set in vars/main.yml under the name of an existing subnet.
+vpc_subnet_id: # MUST BE SET. Set this in vars/main.yml under the name of an existing subnet.
+assign_public_ip: yes
 group: # The security group for your instance to use.
 
 #--------------------------#
