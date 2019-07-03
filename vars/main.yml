@@ -25,7 +25,7 @@
 #   Owner:
 # monitoring:
 # vpc_subnet_id:
-# assign_public_ip:
+# assign_public_ip: yes # If you uncomment this, then you MUST have a vpc_subnet_id set.
 # group:
 
 #--------------------------#
