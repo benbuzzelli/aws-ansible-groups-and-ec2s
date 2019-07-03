@@ -10,4 +10,5 @@ sample DNS: ec2-11-123-456-789.compute-1.amazonaws.com
 
 Examples:
 ---------
+*SSH commands for each ec2 you create will be appended below this line.*
 
