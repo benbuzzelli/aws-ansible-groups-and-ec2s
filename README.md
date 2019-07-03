@@ -90,6 +90,8 @@ Ben Buzzelli
 
 Work email: *benjamin.buzzelli@radiantsolutions.com*
 
+Intern at [MAXAR](https://www.maxar.com/)
+
 License
 -------
 
