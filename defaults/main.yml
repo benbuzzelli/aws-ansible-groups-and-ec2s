@@ -32,7 +32,7 @@ group: # The security group for your instance to use.
 #--------------------------#
 group_name: sampleSecurityGroup # The name of your security group
 description: A sample security group # A description of your security group. Change this in vars/main.yml.
-vpc_id: # The ID for which VPC you want the security group to fall under.
+vpc_id: # The ID for which VPC you want the security group to fall under. MUST BE SET to create a new security group
 group_rules: # A list of the group's inbound firewall rules.
   - proto: tcp # The protocol (e.g. tcp or udp)
     from_port: 22
