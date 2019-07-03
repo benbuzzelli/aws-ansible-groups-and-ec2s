@@ -23,9 +23,9 @@
 # instance_tags:
 #   Name:
 #   Owner:
-# monitoring: no
-vpc_subnet_id: subnet-07b4bc01586b43afb
-# assign_public_ip: yes
+# monitoring:
+# vpc_subnet_id:
+# assign_public_ip:
 # group:
 
 #--------------------------#
