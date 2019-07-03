@@ -45,7 +45,7 @@ Role Variables
 * group
 
 **Security Group variables**
-* name
+* group_name
 * description
 * vpc_id
 * rules
