@@ -5,8 +5,6 @@ Requirements
 ------------
 
   1. boto package - [installation info](https://pypi.org/project/boto/)
-  2. A virtual private cloud id (VPC) e.g., `vpc-01aa23bb45cc67dd`
-  3. A vpc_subnet_id from a running subnet. e.g., `subnet-01aa23bb45cc67dd`
 
 Role Variables
 --------------
