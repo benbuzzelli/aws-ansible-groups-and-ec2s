@@ -25,8 +25,9 @@ instance_tags:
 monitoring: no
 vpc_subnet_id: # MUST BE SET. Set this in vars/main.yml under the name of an existing subnet.
 assign_public_ip: yes
-group: # The security group for your instance to use. You'll want to set this in order to ssh into your new ec2.
-       # You can also set this to group_name if you are making a new security group.
+group: sampleSecurityGroup # The security group for your instance to use. 
+                           # You'll want to set this in order to ssh into your new ec2.
+                           # You can also set this to group_name if you are making a new security group.
 
 #--------------------------#
 # security group variables #
