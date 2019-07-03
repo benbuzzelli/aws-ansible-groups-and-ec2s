@@ -6,7 +6,8 @@
 #----------------#
 # path variables #
 #----------------#
-# Uncomment this and set it to the path to your role if it differs from the default. (e.g., /Users/myusername/.ansible/aws/)
+# Uncomment this and set it to the path to your role if it differs from the default. 
+# (e.g., /etc/ansible/roles/benbuzzelli.aws_ansible_groups_and_ec2s/)
 # role_path: 
   
 # Set this if you know the key pair path for the instance you're creating
@@ -30,10 +31,10 @@ vpc_subnet_id: subnet-07b4bc01586b43afb
 #--------------------------#
 # security group variables #
 #--------------------------#
-group_name: overridingGroupName
+# group_name:
 # description:
-vpc_id: vpc-07ad1fb996decb6cd
-# To add more group_rules, copy and paste lines 35-38 directly below line 38 and fill in with values
+# vpc_id:
+# To add more group_rules, copy from -proto to cidr_ip and paste below, and fill in with values
 # group_rules:
 #   - proto:
 #     from_port:
