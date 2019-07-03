@@ -24,8 +24,8 @@ Role Variables
 --------------
 
 1. Path variables
-  * role_path
-  * key_pair_path
+* role_path
+* key_pair_path
   
 2. EC2 instance variables
 * key_name
