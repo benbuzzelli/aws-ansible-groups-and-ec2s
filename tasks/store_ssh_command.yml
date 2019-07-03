@@ -2,7 +2,7 @@
 - name: Store ssh command
   blockinfile:
     # Make sure to set the role_path variable in vars/main.yml
-    path: '{{ role_path }}'
+    path: '{{ role_path }}/files/my_ec2_ssh_commands.md'
     marker: ''
     block: |
       instance: {{ item.tags.Name }} - created: {{ ansible_date_time.date }}
