@@ -83,6 +83,13 @@ tag-names:
 
 look at *[my_ec2_ssh_commands.md](https://github.com/benbuzzelli/aws-ansible-groups-and-ec2s/blob/master/files/my_ec2_ssh_commands.md)* for information on how to SSH into your new instance
 
+Author
+------
+
+Ben Buzzelli
+
+Work email: *benjamin.buzzelli@radiantsolutions.com*
+
 License
 -------
 
