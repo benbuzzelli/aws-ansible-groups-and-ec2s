@@ -71,6 +71,7 @@ $ ansible-playbook /etc/ansible/roles/benbuzzelli.aws_ansible_groups_and_ec2s/te
 ```
 
 Copy `--tags "tag-name"` after the above command to only complete a specified task:
+
 tag-names:
 * `create-ec2`
 * `create-security-group`
