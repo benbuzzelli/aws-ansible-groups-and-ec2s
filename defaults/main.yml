@@ -14,6 +14,7 @@ key_pair_path: your_key_path # The path where your associated ssh key pair is.
 #---------------#
 # ec2 variables #
 #---------------#
+# image and subnet_id MUST BE SET for the creation of an EC2 instance 
 key_name: ftp-server-key # The key pair to assign to your instance.
 region: us-east-1 # The availability zone in which your instance will be located.
 instance_type: t2.micro # Determines your instance’s CPU capacity, memory, and storage.
@@ -22,7 +23,7 @@ instance_tags:
   Name: sampleFtpServer
   Owner: default
 monitoring: no
-vpc_subnet_id: # MUST BE SET. Set this in vars/main.yml under the name of an existing subnet.
+subnet_id: # MUST BE SET. Set this in vars/main.yml under the name of an existing subnet.
 assign_public_ip: yes
 group: # The security group for your instance to use.
 
