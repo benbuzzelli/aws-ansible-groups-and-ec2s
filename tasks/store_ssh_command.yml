@@ -10,4 +10,3 @@
     insertafter: EOF
   with_items: '{{ ec2_out.instances }}'
   become: yes
-  become_method: sudo
