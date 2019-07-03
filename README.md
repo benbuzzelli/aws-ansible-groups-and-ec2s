@@ -11,8 +11,8 @@ Requirements
 * boto package - [installation info](https://pypi.org/project/boto/)
 
 **Requirements for creating an EC2 instance**
-* AWS subnet id *set `vpc_subnet_id` variable to this*
-* AMI image id - *Defaulted to Amazon Linux AMI set `image` variable to this*
+* AWS subnet id - *set `vpc_subnet_id` variable to this*
+* AMI image id - *Defaulted to Amazon Linux AMI (set `image` variable to this)*
 
 **Requirements for creating a security group**
 * VPC id - *only required for the creation of a security group*
