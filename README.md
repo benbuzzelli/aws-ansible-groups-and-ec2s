@@ -8,6 +8,7 @@ Requirements
 ------------
 
   1. boto package - [installation info](https://pypi.org/project/boto/)
+  2. python >= 2.6 - [installation info](https://realpython.com/installing-python/)
   
 Installation
 ------------
