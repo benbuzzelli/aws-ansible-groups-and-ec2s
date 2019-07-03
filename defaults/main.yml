@@ -4,7 +4,8 @@
 #----------------#
 # path variables #
 #----------------#
-role_path: # This needs to be set in vars/main.yml
+# This needs to be set in vars/main.yml if your path to this role is different
+role_path: /etc/ansible/roles/benbuzzelli.aws_ansible_groups_and_ec2s/files/my_ec2_ssh_commands.md
 
 # This variable is only for convienence when this role stores your ec2 ssh command.
 # Set this to your key pair path for the instance you're creating if you know it.
