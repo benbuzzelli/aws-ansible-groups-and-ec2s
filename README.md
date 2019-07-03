@@ -5,6 +5,15 @@ Requirements
 ------------
 
   1. boto package - [installation info](https://pypi.org/project/boto/)
+  
+Installation
+------------
+
+Using `ansible-galaxy`:
+`$ ansible-galaxy install benbuzzelli.aws_ansible_groups_and_ec2s`
+
+Using `git`:
+``
 
 Role Variables
 --------------
