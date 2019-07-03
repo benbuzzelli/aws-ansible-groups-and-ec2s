@@ -6,7 +6,7 @@
 #----------------#
 # path variables #
 #----------------#
-# Uncomment this and set it to the path to your role. (e.g., /Users/myusername/.ansible/aws/)
+# Uncomment this and set it to the path to your role if it differs from the default. (e.g., /Users/myusername/.ansible/aws/)
 # role_path: 
   
 # Set this if you know the key pair path for the instance you're creating
