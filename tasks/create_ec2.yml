@@ -12,5 +12,5 @@
     monitoring: "{{ monitoring }}"
     vpc_subnet_id: "{{ vpc_subnet_id }}"
     assign_public_ip: "{{ assign_public_ip }}"
-    group: "{{ group_name }}"
+    group: "{{ group }}"
   register: ec2_out
