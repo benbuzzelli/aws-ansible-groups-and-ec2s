@@ -66,7 +66,7 @@ Testing
 
 Create only an ec2 instance:
 ```
-$ ansible-playbook /etc/ansible/roles/benbuzzelli.aws_ansible_groups_and_ec2s/test.yml --tags create-ec2
+$ ansible-playbook /etc/ansible/roles/benbuzzelli.aws_ansible_groups_and_ec2s/tests/test.yml --tags create-ec2
 ```
 
 License
