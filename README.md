@@ -65,10 +65,16 @@ Example Playbook
 Testing
 -------
 
-Create only an ec2 instance:
+Run test.yml:
 ```
-$ ansible-playbook /etc/ansible/roles/benbuzzelli.aws_ansible_groups_and_ec2s/tests/test.yml --tags create-ec2
+$ ansible-playbook /etc/ansible/roles/benbuzzelli.aws_ansible_groups_and_ec2s/tests/test.yml
 ```
+
+Copy `--tags "tag-name"` after the above command to only complete a specified task:
+tag-names:
+* `create-ec2`
+* `create-security-group`
+
 
 License
 -------
