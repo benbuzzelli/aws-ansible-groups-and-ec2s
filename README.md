@@ -23,11 +23,11 @@ Using `git`:
 Role Variables
 --------------
 
-#Path variables
+# Path variables
 * role_path
 * key_pair_path
   
-#EC2 instance variables
+# EC2 instance variables
 * key_name
 * region
 * instance_type
@@ -39,7 +39,7 @@ Role Variables
 * assign_public_ip
 * group
 
-#Security Group variables
+# Security Group variables
 * name
 * description
 * vpc_id
