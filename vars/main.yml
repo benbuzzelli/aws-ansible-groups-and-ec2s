@@ -24,7 +24,7 @@
 #   Name:
 #   Owner:
 # monitoring:
-# subnet_id:
+# vpc_subnet_id:
 # assign_public_ip:
 # group:
 
