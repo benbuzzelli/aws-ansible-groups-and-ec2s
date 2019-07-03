@@ -10,7 +10,7 @@
     count: 1
     instance_tags: "{{ instance_tags }}"
     monitoring: "{{ monitoring }}"
-    subnet_id: "{{ subnet_id }}"
+    vpc_subnet_id: "{{ vpc_subnet_id }}"
     assign_public_ip: "{{ assign_public_ip }}"
     group: "{{ group_name }}"
   register: ec2_out
