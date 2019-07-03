@@ -2,7 +2,7 @@
 This is an ansible role which:
 * can create an AWS security group
 * can create and spin up an ec2
-* logs your created ec2 ssh commands
+* logs ssh commands for your created ec2's
 
 Requirements
 ------------
