@@ -15,7 +15,7 @@ key_pair_path: your_key_path # The path where your associated ssh key pair is.
 # ec2 variables #
 #---------------#
 # image and subnet_id MUST BE SET for the creation of an EC2 instance 
-key_name: ftp-server-key # The key pair to assign to your instance.
+key_name: # The key pair to assign to your instance. MUST BE SET
 region: us-east-1 # The availability zone in which your instance will be located.
 instance_type: t2.micro # Determines your instance’s CPU capacity, memory, and storage.
 image: ami-0b898040803850657 # default: Amazon Linux 2 AMI (HVM), SSD Volume Type (64-bit x86)
