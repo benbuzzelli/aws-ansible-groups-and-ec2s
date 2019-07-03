@@ -8,10 +8,6 @@
   tags:
     - create-ec2
 
-- import_tasks: wait_for_ec2.yml
-  tags:
-    - wait-ec2
-
 - import_tasks: store_ssh_command.yml
   tags:
       - create-ec2
