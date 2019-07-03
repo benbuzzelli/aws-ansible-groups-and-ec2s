@@ -10,6 +10,7 @@ Requirements
 * boto package - [installation info](https://pypi.org/project/boto/)
 * python >= 2.6 - [installation info](https://realpython.com/installing-python/)
 * AWS subnet id - *only needed for the creation of an EC2 instance*
+* AMI image id - *only needed for the creation of an EC2 instance*
   
 Installation
 ------------
