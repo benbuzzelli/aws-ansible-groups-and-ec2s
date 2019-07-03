@@ -54,7 +54,7 @@ Role Variables
 Example Playbook
 ----------------
 
-```
+```yml
 - hosts: localhost
   connection: local
 
@@ -77,7 +77,7 @@ tag-names:
 * `create-security-group`
 
 
-look at *[/files/my_ec2_ssh_commands.md](https://github.com/benbuzzelli/aws-ansible-groups-and-ec2s/blob/master/files/my_ec2_ssh_commands.md)* for information on how to SSH into your new instance
+look at *[my_ec2_ssh_commands.md](https://github.com/benbuzzelli/aws-ansible-groups-and-ec2s/blob/master/files/my_ec2_ssh_commands.md)* for information on how to SSH into your new instance
 
 License
 -------
