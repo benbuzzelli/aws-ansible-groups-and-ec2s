@@ -28,25 +28,25 @@ Role Variables
   * key_pair_path
   
 2. EC2 instance variables
-  * key_name
-  * region
-  * instance_type
-  * image
-  * Name
-  * Owner
-  * monitoring
-  * vpc_subnet_id
-  * assign_public_ip
-  * group
+* key_name
+* region
+* instance_type
+* image
+* Name
+* Owner
+* monitoring
+* vpc_subnet_id
+* assign_public_ip
+* group
 
 3. Security Group variables
-  * name
-  * description
-  * vpc_id
-  * rules
-  * from_port
-  * to_port
-  * cidr_ip
+* name
+* description
+* vpc_id
+* rules
+* from_port
+* to_port
+* cidr_ip
 
 Example Playbook
 ----------------
