@@ -13,12 +13,14 @@ Installation
 ------------
 
 Using `ansible-galaxy`:
-
-```$ ansible-galaxy install benbuzzelli.aws_ansible_groups_and_ec2s```
+```
+$ ansible-galaxy install benbuzzelli.aws_ansible_groups_and_ec2s
+```
 
 Using `git`:
-
-```$ git clone https://github.com/benbuzzelli/aws-ansible-groups-and-ec2s.git```
+```
+$ git clone https://github.com/benbuzzelli/aws-ansible-groups-and-ec2s.git
+```
 
 Role Variables
 --------------
@@ -63,8 +65,9 @@ Testing
 -------
 
 Create only an ec2 instance:
-
-```$ ansible-playbook path/test.yml --tags create-ec2```
+```
+$ ansible-playbook path/test.yml --tags create-ec2
+```
 
 License
 -------
