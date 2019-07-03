@@ -12,6 +12,6 @@
   tags:
     - wait-ec2
 
-- import_tasks: store_public_ip.yml
+- import_tasks: store_ssh_command.yml
   tags:
       - create-ec2
