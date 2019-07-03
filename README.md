@@ -38,8 +38,7 @@ Role Variables
 * region
 * instance_type
 * image
-* Name
-* Owner
+* instance_tags
 * monitoring
 * vpc_subnet_id
 * assign_public_ip
@@ -50,9 +49,7 @@ Role Variables
 * description
 * vpc_id
 * rules
-* from_port
-* to_port
-* cidr_ip
+* rules_egress
 
 Example Playbook
 ----------------
