@@ -59,6 +59,13 @@ Example Playbook
   - aws
 ```
 
+Testing
+-------
+
+Create only an ec2 instance:
+
+`$ ansible-playbook path/test.yml --tags create-ec2`
+
 License
 -------
 
