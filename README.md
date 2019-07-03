@@ -1,2 +1,53 @@
 # aws-ansible-groups-and-ec2s
 This is an ansible role for spinning up AWS ec2's and creating security groups
+
+Requirements
+------------
+
+  1. boto package - [installation info](https://pypi.org/project/boto/)
+  2. A virtual private cloud id (VPC) e.g., `vpc-01aa23bb45cc67dd`
+  3. A vpc_subnet_id from a running subnet. e.g., `subnet-01aa23bb45cc67dd`
+
+Role Variables
+--------------
+
+1. Path variables
+  * role_path
+  * key_pair_path
+  
+2. EC2 instance variables
+  * key_name
+  * region
+  * instance_type
+  * image
+  * Name
+  * Owner
+  * monitoring
+  * vpc_subnet_id
+  * assign_public_ip
+  * group
+
+3. Security Group variables
+  * name
+  * description
+  * vpc_id
+  * rules
+  * from_port
+  * to_port
+  * cidr_ip
+
+Example Playbook
+----------------
+
+```
+- hosts: localhost
+  connection: local
+
+  roles:
+  - aws
+```
+
+License
+-------
+
+BSD
