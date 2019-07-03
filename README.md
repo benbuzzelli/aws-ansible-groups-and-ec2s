@@ -48,7 +48,7 @@ Role Variables
 * group_name
 * description
 * vpc_id
-* rules
+* group_rules
 * rules_egress
 
 Example Playbook
