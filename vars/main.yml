@@ -1,0 +1,41 @@
+---
+# main vars file for /etc/ansible/roles/aws
+
+# Uncomment and assign values to any variables that you want to override
+
+#----------------#
+# path variables #
+#----------------#
+# Uncomment this and set it to the path to your role. (e.g., /Users/myusername/.ansible/aws/)
+# role_path: 
+  
+# Set this if you know the key pair path for the instance you're creating
+# key_pair_path:
+
+#---------------#
+# ec2 variables #
+#---------------#
+# key_name:
+# region:
+# instance_type:
+# image:
+# instance_tags:
+#   Name:
+#   Owner:
+# monitoring: no
+vpc_subnet_id: subnet-07b4bc01586b43afb
+# assign_public_ip: yes
+# group:
+
+#--------------------------#
+# security group variables #
+#--------------------------#
+group_name: overridingGroupName
+# description:
+vpc_id: vpc-07ad1fb996decb6cd
+# To add more group_rules, copy and paste lines 35-38 directly below line 38 and fill in with values
+# group_rules:
+#   - proto:
+#     from_port:
+#     to_port:
+#     cidr_ip:

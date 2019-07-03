@@ -1,0 +1,17 @@
+---
+# tasks file for /etc/ansible/roles/aws
+- import_tasks: create_security_group.yml
+  tags:
+    - create-security-group
+
+- import_tasks: create_ec2.yml
+  tags:
+    - create-ec2
+
+- import_tasks: wait_for_ec2.yml
+  tags:
+    - wait-ec2
+
+- import_tasks: store_public_ip.yml
+  tags:
+      - create-ec2

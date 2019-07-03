@@ -1,0 +1,6 @@
+- name: Install boto3
+  pip:
+    name: boto3
+    state: present
+    extra_args: --ignore-installed
+  become: yes
