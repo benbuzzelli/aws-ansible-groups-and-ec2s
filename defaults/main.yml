@@ -23,9 +23,8 @@ instance_tags:
   Owner: default
 monitoring: no
 vpc_subnet_id: # Must be set in vars/main.yml under the name of an existing subnet.
-               # You can also create a subnet if needed.
 assign_public_ip: yes
-group: # This can be left blank or uncomment the import create_security_group.yml line under tasks/main.yml
+group: # The security group for your instance to use.
 
 #--------------------------#
 # security group variables #
