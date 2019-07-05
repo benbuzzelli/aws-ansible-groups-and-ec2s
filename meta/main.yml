@@ -9,3 +9,5 @@ galaxy_info:
   galaxy_tags: []
     - create-security-group
     - create-ec2
+
+dependencies: []
